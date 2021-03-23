@@ -21,7 +21,7 @@
 ・一作品一作品を吟味できるようにカードでスワイプできるようにした。
 ・他のユーザーのリストから新しい作品に出会えるようにした。
 
-<img src="png" width="320px">
+![search_Swipe](https://user-images.githubusercontent.com/78245675/112149481-5fdc9380-8c22-11eb-9a02-94b89410cf9a.gif)
 <img src="png" width="320px">
 
 
