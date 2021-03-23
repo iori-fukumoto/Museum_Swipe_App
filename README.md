@@ -64,6 +64,7 @@ PKHUD
 Alamofire  
 SwiftyJSON  
 ChameleonFramework  
+EMAlertController  
 
 
 
