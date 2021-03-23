@@ -1,7 +1,7 @@
 # Museum_Swipe_App
 
 ## はじめに
-コードのファイル名がFoodTinderAppとなっていますが、  
+x-codeのファイル名がFoodTinderAppとなっていますが、  
 中身はMuseum_Swipe_Appとなっておりますので、ご確認  
 頂けると幸いです。
 
