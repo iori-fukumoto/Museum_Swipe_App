@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD03BB9D2604146F00B9B76D /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD03BB9C2604146F00B9B76D /* FavoriteViewController.swift */; };
+		CD03BBA026042B3500B9B76D /* DatailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD03BB9F26042B3500B9B76D /* DatailViewController.swift */; };
+		CD62309D2605F15B00F526D0 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD62309C2605F15B00F526D0 /* ListViewController.swift */; };
+		CD6230A02606003500F526D0 /* OtherPersonFavoliteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD62309F2606003500F526D0 /* OtherPersonFavoliteViewController.swift */; };
+		CD6230A32606031700F526D0 /* OtherPersonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6230A22606031700F526D0 /* OtherPersonDetailViewController.swift */; };
+		CD8B65FF438C7F3445F38EE2 /* Pods_FoodTinderApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 152C6289C7EFBDE675EFAF4E /* Pods_FoodTinderApp.framework */; };
+		CD9ADCD42601C48C000C4F9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9ADCD32601C48C000C4F9C /* AppDelegate.swift */; };
+		CD9ADCD62601C48C000C4F9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9ADCD52601C48C000C4F9C /* SceneDelegate.swift */; };
+		CD9ADCDB2601C48C000C4F9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9ADCD92601C48C000C4F9C /* Main.storyboard */; };
+		CD9ADCDD2601C492000C4F9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD9ADCDC2601C492000C4F9C /* Assets.xcassets */; };
+		CD9ADCE02601C492000C4F9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD9ADCDE2601C492000C4F9C /* LaunchScreen.storyboard */; };
+		CD9ADD022601D9EB000C4F9C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD9ADD012601D9EA000C4F9C /* GoogleService-Info.plist */; };
+		CD9ADD0C2601DCFA000C4F9C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9ADD0B2601DCFA000C4F9C /* SearchViewController.swift */; };
+		CD9ADD132601DDEC000C4F9C /* SaveProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9ADD122601DDEC000C4F9C /* SaveProfile.swift */; };
+		CD9ADD172601DE18000C4F9C /* GetUserIDModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9ADD162601DE18000C4F9C /* GetUserIDModel.swift */; };
+		CD9ADD1A2601DE5C000C4F9C /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9ADD192601DE5C000C4F9C /* DataModel.swift */; };
+		CD9ADD202601E10C000C4F9C /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9ADD1E2601E10C000C4F9C /* CardTableViewCell.swift */; };
+		CD9ADD212601E10C000C4F9C /* CardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD9ADD1F2601E10C000C4F9C /* CardTableViewCell.xib */; };
+		CDADFF8E260329F1001B6740 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDADFF8D260329F1001B6740 /* LoginViewController.swift */; };
+		CDB0527C2601F5BB00F59FAA /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB0527B2601F5BB00F59FAA /* SelectViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		152C6289C7EFBDE675EFAF4E /* Pods_FoodTinderApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodTinderApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD03BB9C2604146F00B9B76D /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		CD03BB9F26042B3500B9B76D /* DatailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatailViewController.swift; sourceTree = "<group>"; };
+		CD62309C2605F15B00F526D0 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		CD62309F2606003500F526D0 /* OtherPersonFavoliteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherPersonFavoliteViewController.swift; sourceTree = "<group>"; };
+		CD6230A22606031700F526D0 /* OtherPersonDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherPersonDetailViewController.swift; sourceTree = "<group>"; };
+		CD9ADCD02601C48C000C4F9C /* FoodTinderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTinderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD9ADCD32601C48C000C4F9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD9ADCD52601C48C000C4F9C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CD9ADCDA2601C48C000C4F9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD9ADCDC2601C492000C4F9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD9ADCDF2601C492000C4F9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD9ADCE12601C492000C4F9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD9ADD012601D9EA000C4F9C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CD9ADD0B2601DCFA000C4F9C /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		CD9ADD122601DDEC000C4F9C /* SaveProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveProfile.swift; sourceTree = "<group>"; };
+		CD9ADD162601DE18000C4F9C /* GetUserIDModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetUserIDModel.swift; sourceTree = "<group>"; };
+		CD9ADD192601DE5C000C4F9C /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		CD9ADD1E2601E10C000C4F9C /* CardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTableViewCell.swift; sourceTree = "<group>"; };
+		CD9ADD1F2601E10C000C4F9C /* CardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardTableViewCell.xib; sourceTree = "<group>"; };
+		CDADFF8D260329F1001B6740 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CDB0527B2601F5BB00F59FAA /* SelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
+		DEA2F143B77EF0C59559A417 /* Pods-FoodTinderApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTinderApp.debug.xcconfig"; path = "Target Support Files/Pods-FoodTinderApp/Pods-FoodTinderApp.debug.xcconfig"; sourceTree = "<group>"; };
+		EF64E1E3E26B5D4DF18E7940 /* Pods-FoodTinderApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodTinderApp.release.xcconfig"; path = "Target Support Files/Pods-FoodTinderApp/Pods-FoodTinderApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD9ADCCD2601C48C000C4F9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8B65FF438C7F3445F38EE2 /* Pods_FoodTinderApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AAB65AE90A58B04AB8785EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				152C6289C7EFBDE675EFAF4E /* Pods_FoodTinderApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4AF6B3C19E137C717B5B5409 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEA2F143B77EF0C59559A417 /* Pods-FoodTinderApp.debug.xcconfig */,
+				EF64E1E3E26B5D4DF18E7940 /* Pods-FoodTinderApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CD9ADCC72601C48C000C4F9C = {
+			isa = PBXGroup;
+			children = (
+				CD9ADCD22601C48C000C4F9C /* FoodTinderApp */,
+				CD9ADCD12601C48C000C4F9C /* Products */,
+				4AF6B3C19E137C717B5B5409 /* Pods */,
+				2AAB65AE90A58B04AB8785EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD9ADCD12601C48C000C4F9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD9ADCD02601C48C000C4F9C /* FoodTinderApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD9ADCD22601C48C000C4F9C /* FoodTinderApp */ = {
+			isa = PBXGroup;
+			children = (
+				CD9ADCD32601C48C000C4F9C /* AppDelegate.swift */,
+				CD9ADCD52601C48C000C4F9C /* SceneDelegate.swift */,
+				CD9ADD112601DDD9000C4F9C /* Model */,
+				CD9ADD062601DCC8000C4F9C /* Controller */,
+				CD9ADD1D2601E0CC000C4F9C /* View */,
+				CD9ADCD92601C48C000C4F9C /* Main.storyboard */,
+				CD9ADCDC2601C492000C4F9C /* Assets.xcassets */,
+				CD9ADCDE2601C492000C4F9C /* LaunchScreen.storyboard */,
+				CD9ADCE12601C492000C4F9C /* Info.plist */,
+				CD9ADD012601D9EA000C4F9C /* GoogleService-Info.plist */,
+			);
+			path = FoodTinderApp;
+			sourceTree = "<group>";
+		};
+		CD9ADD062601DCC8000C4F9C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CDADFF8D260329F1001B6740 /* LoginViewController.swift */,
+				CD9ADD0B2601DCFA000C4F9C /* SearchViewController.swift */,
+				CDB0527B2601F5BB00F59FAA /* SelectViewController.swift */,
+				CD03BB9C2604146F00B9B76D /* FavoriteViewController.swift */,
+				CD03BB9F26042B3500B9B76D /* DatailViewController.swift */,
+				CD62309C2605F15B00F526D0 /* ListViewController.swift */,
+				CD62309F2606003500F526D0 /* OtherPersonFavoliteViewController.swift */,
+				CD6230A22606031700F526D0 /* OtherPersonDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CD9ADD112601DDD9000C4F9C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD9ADD122601DDEC000C4F9C /* SaveProfile.swift */,
+				CD9ADD162601DE18000C4F9C /* GetUserIDModel.swift */,
+				CD9ADD192601DE5C000C4F9C /* DataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD9ADD1D2601E0CC000C4F9C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD9ADD1E2601E10C000C4F9C /* CardTableViewCell.swift */,
+				CD9ADD1F2601E10C000C4F9C /* CardTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD9ADCCF2601C48C000C4F9C /* FoodTinderApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD9ADCE42601C492000C4F9C /* Build configuration list for PBXNativeTarget "FoodTinderApp" */;
+			buildPhases = (
+				B325CFB9DCDB81B22175C7B3 /* [CP] Check Pods Manifest.lock */,
+				CD9ADCCC2601C48C000C4F9C /* Sources */,
+				CD9ADCCD2601C48C000C4F9C /* Frameworks */,
+				CD9ADCCE2601C48C000C4F9C /* Resources */,
+				291C92FA50825233C3EA202C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodTinderApp;
+			productName = FoodTinderApp;
+			productReference = CD9ADCD02601C48C000C4F9C /* FoodTinderApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD9ADCC82601C48C000C4F9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CD9ADCCF2601C48C000C4F9C = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = CD9ADCCB2601C48C000C4F9C /* Build configuration list for PBXProject "FoodTinderApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD9ADCC72601C48C000C4F9C;
+			productRefGroup = CD9ADCD12601C48C000C4F9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD9ADCCF2601C48C000C4F9C /* FoodTinderApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD9ADCCE2601C48C000C4F9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD9ADCE02601C492000C4F9C /* LaunchScreen.storyboard in Resources */,
+				CD9ADD022601D9EB000C4F9C /* GoogleService-Info.plist in Resources */,
+				CD9ADD212601E10C000C4F9C /* CardTableViewCell.xib in Resources */,
+				CD9ADCDD2601C492000C4F9C /* Assets.xcassets in Resources */,
+				CD9ADCDB2601C48C000C4F9C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		291C92FA50825233C3EA202C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodTinderApp/Pods-FoodTinderApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FoodTinderApp/Pods-FoodTinderApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FoodTinderApp/Pods-FoodTinderApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B325CFB9DCDB81B22175C7B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FoodTinderApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD9ADCCC2601C48C000C4F9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD03BBA026042B3500B9B76D /* DatailViewController.swift in Sources */,
+				CDADFF8E260329F1001B6740 /* LoginViewController.swift in Sources */,
+				CD62309D2605F15B00F526D0 /* ListViewController.swift in Sources */,
+				CD6230A32606031700F526D0 /* OtherPersonDetailViewController.swift in Sources */,
+				CD9ADCD42601C48C000C4F9C /* AppDelegate.swift in Sources */,
+				CD9ADD1A2601DE5C000C4F9C /* DataModel.swift in Sources */,
+				CD9ADD172601DE18000C4F9C /* GetUserIDModel.swift in Sources */,
+				CD03BB9D2604146F00B9B76D /* FavoriteViewController.swift in Sources */,
+				CDB0527C2601F5BB00F59FAA /* SelectViewController.swift in Sources */,
+				CD9ADD0C2601DCFA000C4F9C /* SearchViewController.swift in Sources */,
+				CD6230A02606003500F526D0 /* OtherPersonFavoliteViewController.swift in Sources */,
+				CD9ADD132601DDEC000C4F9C /* SaveProfile.swift in Sources */,
+				CD9ADD202601E10C000C4F9C /* CardTableViewCell.swift in Sources */,
+				CD9ADCD62601C48C000C4F9C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD9ADCD92601C48C000C4F9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD9ADCDA2601C48C000C4F9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD9ADCDE2601C492000C4F9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD9ADCDF2601C492000C4F9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD9ADCE22601C492000C4F9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD9ADCE32601C492000C4F9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD9ADCE52601C492000C4F9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEA2F143B77EF0C59559A417 /* Pods-FoodTinderApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DM82U6H36;
+				INFOPLIST_FILE = FoodTinderApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.f.iori1002.FoodTinderApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CD9ADCE62601C492000C4F9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF64E1E3E26B5D4DF18E7940 /* Pods-FoodTinderApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DM82U6H36;
+				INFOPLIST_FILE = FoodTinderApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.f.iori1002.FoodTinderApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD9ADCCB2601C48C000C4F9C /* Build configuration list for PBXProject "FoodTinderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9ADCE22601C492000C4F9C /* Debug */,
+				CD9ADCE32601C492000C4F9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD9ADCE42601C492000C4F9C /* Build configuration list for PBXNativeTarget "FoodTinderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD9ADCE52601C492000C4F9C /* Debug */,
+				CD9ADCE62601C492000C4F9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD9ADCC82601C48C000C4F9C /* Project object */;
+}
