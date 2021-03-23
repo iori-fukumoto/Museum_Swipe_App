@@ -20,11 +20,13 @@
 ## UIデザイン
 ・アーティストに詳しくない人でも検索できるように,  
 おすすめのアーティスト一覧を表示した。  
+<br>
 ・作品を吟味できるように、画像の羅列ではなく、  
 スワイプで一作品ずつ確認できるようにした。  
 <br>
 ![search_Swipe](https://user-images.githubusercontent.com/78245675/112149481-5fdc9380-8c22-11eb-9a02-94b89410cf9a.gif)  
 ![favolite](https://user-images.githubusercontent.com/78245675/112149794-b4800e80-8c22-11eb-9dcf-546ca6915538.gif)    
+<br>
 <br>
 ・他のユーザーのリストから新しい作品に出会えるようにした。  
 <br>
